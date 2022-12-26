@@ -1,17 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDom from 'react-dom';
+import { BrowserRouter} from "react-router-dom";
+import Main from './App';
+import storesContext from './context/context';
+import CasesStore from './.store/store';
+import OfficersStore from './.store/store2'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+let stores = {
+	list: CasesStore,
+	officers: OfficersStore
+};
+
+
+ReactDom.render(
+	<storesContext.Provider value={stores}>
+		<BrowserRouter>
+			<Main />
+		</BrowserRouter>
+	</storesContext.Provider>
+	,
+	document.querySelector('#root'),
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

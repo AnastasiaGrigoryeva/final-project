@@ -1,0 +1,20 @@
+p{
+    margin: 0px;
+}
+label{
+    margin: 10px 10px ;
+}
+.wrappercases{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

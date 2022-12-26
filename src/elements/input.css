@@ -1,0 +1,14 @@
+.label{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+}
+.input{
+    height: 60px;
+    width: 100%;
+    background: none;
+    border: 2px solid white;
+    color:white;
+}

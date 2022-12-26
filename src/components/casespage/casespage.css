@@ -1,0 +1,70 @@
+
+.btn{
+    border: none;
+}
+.btn:hover{
+    border: 2px solid white;
+}
+.wrapper-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+.wrapper-case{
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.wrapper.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-cases{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: none;
+
+}
+
+.wrapper{
+    display: flex;
+}
+.div-contener{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.case{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+}
+.user-name{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+.btm-focused{
+    text-decoration: underline;
+}

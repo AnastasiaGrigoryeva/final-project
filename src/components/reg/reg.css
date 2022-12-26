@@ -1,0 +1,50 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.wrapper-form.reg{
+    padding-top: 33px;
+}
+.title-name{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 82px
+}
+.label{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+}
+.input{
+    height: 60px;
+    width: 100%;
+
+    border: 2px solid white;
+    color:white;
+}
+.btn{
+    height: 60px;
+    width: 230px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn.reg-form{
+    padding: 0;
+    margin: 0;
+}
